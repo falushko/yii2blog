@@ -7,29 +7,51 @@ use app\assets\AppAsset;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-AppAsset::register($this);?>
+AppAsset::register($this); ?>
 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-	<link type="text/css" rel="stylesheet" href="/css/frontend/style.css" />
+
     <script type="text/javascript" src="/scripts/common/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/frontend/script.js"></script>
-	<?php $this->head() ?>	
+    <?php $this->head() ?>
+    <link type="text/css" rel="stylesheet" href="/css/frontend/style.css"/>
 </head>
 <body>
-	<?php $this->beginBody() ?>
-    <div class="wrap">
-        <div class="container">            
-            <?= $content ?>
-        </div>
+<?php $this->beginBody() ?>
+
+<div class="wrapper">
+    <div class="container">
+
+
+        <div class="header"></div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/">Регистрация</a></li>
+                <li><a href="/">Пользователи</a></li>
+                <li><a href="/">Вход</a></li>
+            </ul>
+        </nav>
+
+
+        <?= $content ?>
+
     </div>
-	<?php $this->endBody() ?>
+
+    <div class="placeholder"></div>
+</div>
+
+<div class="footer"></div>
+
+
+<?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
