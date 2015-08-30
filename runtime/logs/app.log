@@ -6190,3 +6190,2438 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2015-08-30 13:48:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:48:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57245'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440931684.071
+    'REQUEST_TIME' => 1440931684
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:48:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sign-up".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('sign-up', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:48:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57243'
+    'REDIRECT_URL' => '/sign-up'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440931686.934
+    'REQUEST_TIME' => 1440931686
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:48:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:48:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57243'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440931687.049
+    'REQUEST_TIME' => 1440931687
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:48:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:48:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=index/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57252'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440931718.874
+    'REQUEST_TIME' => 1440931718
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:48:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:48:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=index/sign-upt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57254'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440931729.263
+    'REQUEST_TIME' => 1440931729
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:54:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:54:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57283'
+    'REDIRECT_URL' => '/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932059.524
+    'REQUEST_TIME' => 1440932059
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:54:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:54:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57283'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932059.685
+    'REQUEST_TIME' => 1440932059
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:54:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:54:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57284'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932064.746
+    'REQUEST_TIME' => 1440932064
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:54:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sign-up.php".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('sign-up.php', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:54:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57290'
+    'REDIRECT_URL' => '/sign-up.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/sign-up.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932075.933
+    'REQUEST_TIME' => 1440932075
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:54:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:54:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/sign-up.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57290'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932076.036
+    'REQUEST_TIME' => 1440932076
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:55:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/site.css".' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('css/site.css', Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-08-30 13:55:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57303'
+    'REDIRECT_URL' => '/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/site.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932148.579
+    'REQUEST_TIME' => 1440932148
+    'argv' => []
+    'argc' => 0
+]
+2015-08-30 13:56:28 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The table does not exist: users' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\ActiveRecord.php:301
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\ActiveRecord::getTableSchema()
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(422): yii\db\ActiveRecord->attributes()
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(241): yii\db\BaseActiveRecord->hasAttribute('username')
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1838): yii\db\BaseActiveRecord->__get('username')
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1139): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Users), 'username')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1160): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Users), 'username', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(184): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Users), 'username', Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#8 C:\OpenServer\domains\yii2testtask\views\site\registration.php(9): yii\widgets\ActiveField->__toString()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#13 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#14 [internal function]: app\controllers\SiteController->actionSignUp()
+#15 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#21 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(9): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:9
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 13:56:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932188.82
+    'REQUEST_TIME' => 1440932188
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 13:58:54 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Users::username' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:143
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('username')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1838): yii\db\BaseActiveRecord->__get('username')
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1139): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Users), 'username')
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1160): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Users), 'username', Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(184): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Users), 'username', Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#6 C:\OpenServer\domains\yii2testtask\views\site\registration.php(9): yii\widgets\ActiveField->__toString()
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#11 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#12 [internal function]: app\controllers\SiteController->actionSignUp()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#19 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(9): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:9
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 13:58:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '57316'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440932334.405
+    'REQUEST_TIME' => 1440932334
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:48:48 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Invalid validation rule: a rule must specify both attribute names and validator type.' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php:425
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#7 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#12 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#20 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:48:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935327.977
+    'REQUEST_TIME' => 1440935327
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:54:00 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:54:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58925'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935640.342
+    'REQUEST_TIME' => 1440935640
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:54:47 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:54:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58928'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935687.821
+    'REQUEST_TIME' => 1440935687
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:55:34 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:55:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58938'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935734.861
+    'REQUEST_TIME' => 1440935734
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:55:50 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:55:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58941'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935750.925
+    'REQUEST_TIME' => 1440935750
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 14:56:01 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 14:56:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'c3JSVzJWZC0HPhE5WRswWB9fagV0Bz5aMAQ/OHEaMBsVNB0DWW9VQg=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '124'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58942'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440935761.14
+    'REQUEST_TIME' => 1440935761
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 15:07:03 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(11): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:11
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 15:07:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'MVVTbk83REhFGRAAJHoQPV14azwJZh4/ciM.AQx7EH5XExw6JA51Jw=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+        'captcha' => 'fds'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '147'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '58963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440936423.525
+    'REQUEST_TIME' => 1440936423
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 15:23:04 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:12
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 15:23:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'MVVTbk83REhFGRAAJHoQPV14azwJZh4/ciM.AQx7EH5XExw6JA51Jw=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+        'captcha' => 'fds'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '147'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '59054'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440937384.277
+    'REQUEST_TIME' => 1440937384
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 15:33:46 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:12
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 15:33:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_POST = [
+    '_csrf' => 'MVVTbk83REhFGRAAJHoQPV14azwJZh4/ciM.AQx7EH5XExw6JA51Jw=='
+    'Users' => [
+        'name' => ''
+        'email' => ''
+        'password' => ''
+        'captcha' => 'fds'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '147'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '59388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440938026.437
+    'REQUEST_TIME' => 1440938026
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 16:44:47 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:12
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 16:44:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '2494'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440942286.952
+    'REQUEST_TIME' => 1440942286
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 16:55:44 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(518): yii\base\Component->__set('0', 'required')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\di\Container.php(147): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\validators\Validator.php(204): yii\BaseYii::createObject(Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(422): yii\validators\Validator::createValidator('required', Object(app\models\Users), Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#15 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#19 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#20 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#21 [internal function]: app\controllers\SiteController->actionSignUp()
+#22 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#23 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#25 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#26 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#28 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Unkn...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:12
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 16:55:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '2901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440942944.317
+    'REQUEST_TIME' => 1440942944
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 16:56:21 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Invalid validation rule: a rule must specify both attribute names and validator type.' 
+
+in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php:425
+
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(386): yii\base\Model->createValidators()
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Model.php(736): yii\base\Model->scenarios()
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(740): yii\base\Model->activeAttributes()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\widgets\ActiveField->render()
+#7 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#12 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#20 {main}' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php:233
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Inva...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\ErrorHandler.php(233): trigger_error('Exception (Inva...', 256)
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidConfigException))
+#3 C:\OpenServer\domains\yii2testtask\views\site\registration.php(12): yii\widgets\ActiveField->__toString()
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#8 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(58): yii\base\Controller->render('registration', Array)
+#9 [internal function]: app\controllers\SiteController->actionSignUp()
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#13 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\OpenServer\domains\yii2testtask\views\site\registration.php:12
+    in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:58
+2015-08-30 16:56:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '2904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440942981.941
+    'REQUEST_TIME' => 1440942981
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 17:01:09 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'widget' (T_STRING), expecting ',' or ';'' in C:\OpenServer\domains\yii2testtask\views\site\registration.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 17:01:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '2948'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440943269.005
+    'REQUEST_TIME' => 1440943269
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 18:22:30 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ','' in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:70
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 18:22:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/registrate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '3594'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440948150.584
+    'REQUEST_TIME' => 1440948150
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 19:34:27 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Users::captcha' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('captcha')
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1838): yii\db\BaseActiveRecord->__get('captcha')
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1139): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Users), 'captcha')
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php(1160): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Users), 'captcha', Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\captcha\Captcha.php(82): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Users), 'captcha', Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Widget.php(96): yii\captcha\Captcha->run()
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\widgets\ActiveField.php(717): yii\base\Widget::widget(Array)
+#7 C:\OpenServer\domains\yii2testtask\views\site\registration.php(18): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(325): require('C:\\OpenServer\\d...')
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\OpenServer\\d...', Array)
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\OpenServer\\d...', Array, Object(app\controllers\SiteController))
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('registration', Array, Object(app\controllers\SiteController))
+#12 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(59): yii\base\Controller->render('registration', Array)
+#13 [internal function]: app\controllers\SiteController->actionSignUp()
+#14 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('sign-up', Array)
+#17 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/sign-up', Array)
+#18 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#20 {main}
+2015-08-30 19:34:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/registrate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '4183'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440952467.707
+    'REQUEST_TIME' => 1440952467
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 19:55:42 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';'' in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 19:55:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/registrate'
+]
+
+$_POST = [
+    '_csrf' => 'YmlCdUxrbzYWJQEbJyY7Qw5EeicKOjVBIR8vGg8nOwAELw0hJ1JeWQ=='
+    'Users' => [
+        'name' => 'czasxczzsxvczx'
+        'email' => 'zvxcvcz@fds.er'
+        'password' => 'vzxcvzzxc'
+        'captcha' => 'himese'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '187'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/registrate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '4559'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/registrate'
+    'REQUEST_URI' => '/?r=site/registrate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440953742.183
+    'REQUEST_TIME' => 1440953742
+    'argv' => [
+        0 => 'r=site/registrate'
+    ]
+    'argc' => 1
+]

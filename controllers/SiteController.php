@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Users;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -52,6 +53,22 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionSignUp()
+    {
+        $model = new Users();
+        return $this->render('registration', ['model' => $model]);
+    }
+
+    public function actionRegistrate()
+    {
+        $model = new Users();
+        $model->load(Yii::$app->request->post());
+        $model->save();
+        $message = 'Данные отправлены';
+        return $this->render('registration', ['model' => $model, 'message' => $message]);
+
+    }
+
     public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {
@@ -72,5 +89,5 @@ class SiteController extends Controller
         Yii::$app->user->logout();
         return $this->goHome();
     }
-    
+
 }

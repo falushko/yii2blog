@@ -67,5 +67,15 @@ img{
     text-align: center;
 }
 
+.form{
+    width: 350px;
+    margin: 10px 0 0 35px;
+}
+
+#success{
+    margin-left: -15px;
+    width: 380px;
+}
+
 
 
