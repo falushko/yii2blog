@@ -6,7 +6,7 @@ echo '<div class="form">';
 
 $form = ActiveForm::begin([
     'action' => '/?r=site/registrate',
-    'id' => 'login-form',
+    'id' => 'register-form',
     'options' => ['class' => 'form-horizontal'],
 
 ]) ?>
@@ -14,10 +14,9 @@ $form = ActiveForm::begin([
 <?= $form->field($model, 'email') ?>
 <?= $form->field($model, 'password')->passwordInput()->label('Пароль') ?>
 <?= $form->field($model, 'captcha')->widget(\yii\captcha\Captcha::classname(), [
-    // configure additional widget properties here
+
 ]) ?>
     <div class="form-group">
-
             <?= Html::submitButton('Отправить', ['class' => 'btn btn-primary']) ?>
     </div>
 

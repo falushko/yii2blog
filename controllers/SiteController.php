@@ -28,9 +28,7 @@ class SiteController extends Controller
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
+
             ],
         ];
     }
@@ -66,10 +64,43 @@ class SiteController extends Controller
         $model->save();
         $message = 'Данные отправлены';
         return $this->render('registration', ['model' => $model, 'message' => $message]);
-
     }
 
     public function actionLogin()
+    {
+        $model = new Users();
+        if (empty(Yii::$app->request->post())) {
+            if (Yii::$app->user->isGuest) {
+                return $this->render('login', ['model' => $model]);
+            } else {
+                return $this->render('logged_in');
+            }
+
+        } else {
+            $post = Yii::$app->request->post();
+            $identity = Users::find()
+                ->where(['email' => $post['Users']['email'], 'password' => $post['Users']['password']])
+                ->one();
+            if ($identity !== null) {
+                // logs in the user
+                Yii::$app->user->login($identity);
+                return $this->render('logged_in', ['message' => 'Вы залогинились']);
+            } else {
+                return $this->render('login', ['model' => $model, 'message' => 'Введите корректные данные']);
+            }
+        }
+    }
+
+    public function actionLogout()
+    {
+        if (!Yii::$app->user->isGuest) {
+            Yii::$app->user->logout();
+            $model = new Users();
+            return $this->redirect('?r=site/login');
+        }
+    }
+
+    /*public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
@@ -88,6 +119,6 @@ class SiteController extends Controller
     {
         Yii::$app->user->logout();
         return $this->goHome();
-    }
+    }*/
 
 }

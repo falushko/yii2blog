@@ -8625,3 +8625,555 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2015-08-30 21:36:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'app\models\IdentityInterface' not found' in C:\OpenServer\domains\yii2testtask\models\Users.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 21:36:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/sign-up'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/registrate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '4986'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/sign-up'
+    'REQUEST_URI' => '/?r=site/sign-up'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440959808.258
+    'REQUEST_TIME' => 1440959808
+    'argv' => [
+        0 => 'r=site/sign-up'
+    ]
+    'argc' => 1
+]
+2015-08-30 21:40:04 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\models\Users::auth_key' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('auth_key', 'LqKqtqKywTXSMae...')
+#1 C:\OpenServer\domains\yii2testtask\models\Users.php(86): yii\db\BaseActiveRecord->__set('auth_key', 'LqKqtqKywTXSMae...')
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\ActiveRecord.php(451): app\models\Users->beforeSave(true)
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\db\BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#5 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(66): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\SiteController->actionRegistrate()
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('registrate', Array)
+#10 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/registrate', Array)
+#11 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-08-30 21:40:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/registrate'
+]
+
+$_POST = [
+    '_csrf' => 'eXY5cU0wOVgNOnofJn1tLRVbASMLYWMvOgBUHg58bW4fMHYlJgkINw=='
+    'Users' => [
+        'name' => 'gasdfa'
+        'email' => 'asdfas@gsadfgs.rt'
+        'password' => 'vsadfgas'
+        'captcha' => 'tiqajt'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'seueljc'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '181'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://yii2testtask'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5010'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/registrate'
+    'REQUEST_URI' => '/?r=site/registrate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440960004.027
+    'REQUEST_TIME' => 1440960004
+    'argv' => [
+        0 => 'r=site/registrate'
+    ]
+    'argc' => 1
+]
+2015-08-30 22:21:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php:1883
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 22:21:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/log-in'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5560'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/log-in'
+    'REQUEST_URI' => '/?r=site/log-in'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440962467.151
+    'REQUEST_TIME' => 1440962467
+    'argv' => [
+        0 => 'r=site/log-in'
+    ]
+    'argc' => 1
+]
+2015-08-30 22:22:20 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php:1883
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 22:22:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/log-in'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5567'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/log-in'
+    'REQUEST_URI' => '/?r=site/log-in'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440962540.332
+    'REQUEST_TIME' => 1440962540
+    'argv' => [
+        0 => 'r=site/log-in'
+    ]
+    'argc' => 1
+]
+2015-08-30 22:22:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php:1883
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 22:22:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/log-in'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/log-in'
+    'REQUEST_URI' => '/?r=site/log-in'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440962545.382
+    'REQUEST_TIME' => 1440962545
+    'argv' => [
+        0 => 'r=site/log-in'
+    ]
+    'argc' => 1
+]
+2015-08-30 22:23:39 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on null' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\helpers\BaseHtml.php:1883
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-30 22:23:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/sign-up'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5589'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/?r=site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440962619.685
+    'REQUEST_TIME' => 1440962619
+    'argv' => [
+        0 => 'r=site/login'
+    ]
+    'argc' => 1
+]
+2015-08-30 22:57:07 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must implement interface yii\web\IdentityInterface, null given, called in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php on line 82 and defined' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\User.php(233): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', 'C:\\OpenServer\\d...', 233, Array)
+#1 C:\OpenServer\domains\yii2testtask\controllers\SiteController.php(82): yii\web\User->login(NULL)
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#9 {main}
+2015-08-30 22:57:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas:32:\"tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o\";'
+    'PHPSESSID' => 'epg6thgvo73bocl3c372mcki81'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=3fc6b18386759c44d9e7270835e45c668d0ea10084d5a7acab3638ff81f8c2cas%3A32%3A%22tLCnkMTul-8RFQZwCvmoCLT6fFOTk91o%22%3B; PHPSESSID=epg6thgvo73bocl3c372mcki81'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '5829'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/?r=site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1440964627.487
+    'REQUEST_TIME' => 1440964627
+    'argv' => [
+        0 => 'r=site/login'
+    ]
+    'argc' => 1
+]
+2015-08-31 14:12:24 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'return' (T_RETURN)' in C:\OpenServer\domains\yii2testtask\controllers\SiteController.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-31 14:12:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c20b4defc7666ab2586f30da5d7e91d678af613d0a203664a78ffae02c93393s:32:\"n6uyFuNAmn5W8T4bOW2VTkbYw0M97wd0\";'
+    'PHPSESSID' => 'd33e4f5hu2n6iv2ncg4n0dot32'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=2c20b4defc7666ab2586f30da5d7e91d678af613d0a203664a78ffae02c93393s%3A32%3A%22n6uyFuNAmn5W8T4bOW2VTkbYw0M97wd0%22%3B; PHPSESSID=d33e4f5hu2n6iv2ncg4n0dot32'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '6959'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/?r=site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441019543.995
+    'REQUEST_TIME' => 1441019543
+    'argv' => [
+        0 => 'r=site/login'
+    ]
+    'argc' => 1
+]
+2015-08-31 21:48:29 [127.0.0.1][5][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('logout', Array)
+#6 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/logout', Array)
+#7 C:\OpenServer\domains\yii2testtask\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\OpenServer\domains\yii2testtask\www\index.php(12): yii\base\Application->run()
+#9 {main}
+2015-08-31 21:48:29 [127.0.0.1][5][-][info][application] $_GET = [
+    'r' => 'site/logout'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd0818fa4ca1eb00fef95664fc5f4280d960de2ea40a1e337f9db99cf2e1c7f0as:32:\"DGXDpCqxzFJ3CjdJBkF513JmJ9t7hQv-\";'
+    'PHPSESSID' => '69c9tl9uoakvs9mdcl6k79hio2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '5'
+    '__captcha/site/captcha' => 'mifogo'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2testtask'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2testtask/?r=site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,uk;q=0.2,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d0818fa4ca1eb00fef95664fc5f4280d960de2ea40a1e337f9db99cf2e1c7f0as%3A32%3A%22DGXDpCqxzFJ3CjdJBkF513JmJ9t7hQv-%22%3B; PHPSESSID=69c9tl9uoakvs9mdcl6k79hio2'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6\\ext;c:\\openserver\\modules\\php\\PHP-5.6\\pear;c:\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.4\\bin;c:\\openserver\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2testtask'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/yii2testtask/www'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/yii2testtask/www/index.php'
+    'REMOTE_PORT' => '11790'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/logout'
+    'REQUEST_URI' => '/?r=site/logout'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1441046909.55
+    'REQUEST_TIME' => 1441046909
+    'argv' => [
+        0 => 'r=site/logout'
+    ]
+    'argc' => 1
+]

@@ -36,7 +36,7 @@ AppAsset::register($this); ?>
                 <li><a href="/">Главная</a></li>
                 <li><a href="/?r=site/sign-up">Регистрация</a></li>
                 <li><a href="/">Пользователи</a></li>
-                <li><a href="/">Вход</a></li>
+                <li><a href="/?r=site/login">Вход</a></li>
             </ul>
         </nav>
 

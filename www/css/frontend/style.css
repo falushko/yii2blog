@@ -77,5 +77,15 @@ img{
     width: 380px;
 }
 
+a#logout{
+    margin-left: -30px;
+}
+
+#success2{
+    margin-left: -30px;
+    margin-top: 20px;
+    width: 380px;
+}
+
 
 
