@@ -100,6 +100,11 @@ class SiteController extends Controller
         }
     }
 
+    public function actionAllUsers(){
+
+        return $this->render('all_users');
+    }
+
     /*public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {

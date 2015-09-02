@@ -87,5 +87,9 @@ a#logout{
     width: 380px;
 }
 
+.summary{
+    display: none;
+}
+
 
 
